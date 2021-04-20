@@ -1,0 +1,38 @@
+body{
+    background-size: cover;
+    /*background-color: aquamarine;*/
+    background-repeat: repeat;
+}
+
+
+.test{
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+    display: flex;
+    justify-content: start;
+}
+
+.txt{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    /*border-top: transparent;*/
+    border-right: transparent;
+    border-left: transparent;
+}
+
+.navBar{
+    margin-top: 25px;
+    color: black;
+    /*position: absolute;
+    top: 65%; left: 10%; right: 10%;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:goldenrod;
+    border-radius: 40px;
+}
