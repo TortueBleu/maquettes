@@ -36,3 +36,21 @@ body{
     background-color:goldenrod;
     border-radius: 40px;
 }
+
+.button{
+    background-color: ;
+    text-decoration: none;
+    color: black;
+    border-color: rgb(194, 147, 28); /*rgb(0, 238, 255);*/
+    border-radius: 20px;
+    width: 8%;
+    height: 53px;
+}
+
+.textExplicatif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
