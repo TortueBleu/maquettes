@@ -16,10 +16,10 @@ console.log(event.target.id);
     }
     else if (event.target.id === "conso") {
         
-        text.innerHTML = "Sed ut perspiciatis unde omnis iste  natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.";     
+        text.innerHTML = "Sed ut perspiciatis unde omnis iste  natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab";     
     }
     else if (event.target.id === "recolte") {
        
-        text.innerHTML = "Sed ut perspiciatis unde omnis iste  natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.";
+        text.innerHTML = " laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.";
     }
 }
