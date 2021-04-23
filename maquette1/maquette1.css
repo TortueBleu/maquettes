@@ -52,5 +52,12 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 25px;
-
+    color: violet;
+}
+.chammelleImg{
+    background-image: url("photos/chammelle.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 800px;
 }
