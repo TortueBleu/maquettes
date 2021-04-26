@@ -48,11 +48,12 @@ body{
 }
 
 .textExplicatif{
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    color: violet;
+    color: white;
 }
 .chammelleImg{
     background-image: url("photos/chammelle.jpg");
