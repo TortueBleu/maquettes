@@ -1,0 +1,241 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.sticky + .content {
+    padding-top: 60px;
+}
+
+#header {
+    background-color: white;
+    color: goldenrod;
+    border: solid;
+    border-color: goldenrod;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    display: flex;
+    justify-content: space-around;
+    z-index: 3;
+}
+ /*Navbar*/
+.navbar {
+    overflow: hidden;
+    color: goldenrod;
+}
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: goldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: goldenrod;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  .dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body, html {
+    height: 100%;
+    font: 400 15px/1.8 "Lato", sans-serif;
+}
+  
+.caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+
+.caption2 {
+    padding-top: 10%;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+  
+.parallax1 {
+    /* The image used */
+    background-image: url("photos/chameau.jpg");
+  
+    /* Full height */
+    min-height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border{
+    z-index: 1;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("photos/lait-chamelle.jpg");
+  
+    /* Full height */
+    min-height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/*footer*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.firstLine {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 17px;
+  height: 300px;
+  width: 100%;
+  border: solid;
+  border-color: goldenrod;
+  border-bottom: white;
+  border-left: white;
+  border-right: white;
+  color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.firstLine,
+.secondLine {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+
+.secondLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.myInputTxt {
+  border-radius: 10px;
+}
+
+.btnCL {
+  border-radius: 10px;
+  width: 50px;
+}
+
+/* 
+.ctnPrResponsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.ctnIcon {
+  display: flex;
+  padding-bottom: 10px;
+  /* justify-content: space-between; */
+}
+
+.contact h4 {
+  padding-top: 10px;
+}
+
+.ctn2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.icon {
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.icon:hover {
+  width: 35px;
+  filter: drop-shadow(0 0 0.75rem white);
+}
+
+.contact2 {
+  display: none;
+}
+
+h4 {
+    text-align: center;
+}
