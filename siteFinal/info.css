@@ -1,6 +1,6 @@
 .parallax1 {
     /* The image used */
-    background-image: url("photos/troupeaux.jpg");
+    background-image: url("photos/desertInfo.jpg");
   
     /* Full height */
     min-height: 100%;
@@ -18,7 +18,7 @@
     top: 40%;
     width: 100%;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 
@@ -47,4 +47,9 @@ section {
 .n2024{
     border: solid;
     border-color: goldenrod;
+}
+
+
+.test{
+    color: black;
 }
