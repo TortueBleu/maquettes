@@ -169,18 +169,15 @@ section {
   padding: 1%;
 }
 
-.bottom {
+
+.partenaires {
   border: solid;
   border-color: goldenrod;
   border-left: white;
   border-right: white;
   border-bottom: white;
-}
-
-.partenaires {
   background-color: #BE9F69;
-  padding-left: 5%;  
-  justify-content: space-between;
+  padding-left: 5%;
 }
 
 .text5 {
@@ -189,8 +186,11 @@ section {
 
 h3 {
   text-align: center;
+  color: white;
 }
 
 .boutique {
   background-color: #404957;
+  color: white;
+  padding-left: 5%;
 }
