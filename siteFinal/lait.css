@@ -1,0 +1,44 @@
+.parallax1 {
+    /* The image used */
+    background-image: url("photos/chamelait.jpg");
+  
+    /* Full height */
+    min-height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+section {
+    width: 100%;
+    /* height: 550px; */
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display : flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+.question, .reponse {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.question {
+    font-size: 100%;
+}
