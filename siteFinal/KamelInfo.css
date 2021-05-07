@@ -177,20 +177,31 @@ section {
   border-right: white;
   border-bottom: white;
   background-color: #BE9F69;
-  padding-left: 5%;
 }
 
 .text5 {
   color: white;
+  padding-left: 0.5%;
 }
 
-h3 {
+.titre1 {
   text-align: center;
   color: white;
+  font-size: 120%;
 }
 
 .boutique {
   background-color: #404957;
   color: white;
-  padding-left: 5%;
+  
+}
+
+.images3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text4 {
+  color: white;
+  padding-left: 2.5%;
 }

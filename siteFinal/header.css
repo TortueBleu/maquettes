@@ -10,11 +10,8 @@
 
 #header {
     color: goldenrod;
-    border: solid;
-    border-color: goldenrod;
-    border-top: white;
-    border-left: white;
-    border-right: white;
+    background-color: black;
+    opacity: 0.5;
     padding-bottom: 5px;
     display: flex;
     justify-content: space-around;
