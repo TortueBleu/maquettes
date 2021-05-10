@@ -82,3 +82,11 @@ body, html {
     height: 100%;
     font: 400 15px/1.8 "Lato", sans-serif;
 }
+
+body::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: goldenrod;
+}
