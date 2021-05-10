@@ -134,10 +134,20 @@ section {
     padding-top: 100px;
     padding-left: 70px;
 }
+.text2 {
+ 
+  padding-top: 100px;
+  padding-left: 70px;
+}
 
 .contenu1 {
     background-color: #404957;
     color: #BE9F69;
+}
+.contenu2 {
+  /*background-color: #4b4f55;#404957*/
+  background: linear-gradient(to bottom, #404957 0%, #4b4f55 100%);
+  color: goldenrod;
 }
 
 /*button up*/
