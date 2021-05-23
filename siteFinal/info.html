@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="info.css">
+    <link rel="stylesheet" href="sidebar.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
@@ -20,18 +21,22 @@
             <a href="index.html"><img src="photos/logokamelito.png" height="90px" id="img"></a>
             <div class="navbar">
                 <a href="about.html">Qui sommes-nous ?</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Les bienfaits du lait de chamelle
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                    </div>
-                </div>
+                <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
                 <a href="https://www.kamelito.com/boutique/">Boutique</a>
             </div>
+        </div>
+    </header>
+    <header>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">Qui sommes-nous ?</a>
+            <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
+            <a href="https://www.kamelito.com/boutique/">Boutique</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
         </div>
     </header>
     <div class="parallax1">
@@ -83,16 +88,18 @@
     <footer>
         <div class="firstLine">
             <div class="footer1">
-                <h4>Kamelito</h4>
+                <h4>KAMELITO</h4>
                 <div class="ctn2">
                     <a href="about.html">
                         <p>Qui sommes-nous ?</p>
                     </a>
-                    <p>Boutique</p>
+                    <a href="https://www.kamelito.com/boutique/">
+                        <p>Boutique</p>
+                    </a>
                 </div>
             </div>
             <div class="footer2">
-                <h4>Kamelito c'est du chameau, du lait, des infos.</h4>
+                <h4>KAMELITO c'est du chameau, du lait, des infos.</h4>
             </div>
             <div class="footer contact">
                 <h4>Contact</h4>

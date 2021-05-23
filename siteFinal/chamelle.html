@@ -9,34 +9,40 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="chamelle.css">
+    <link rel="stylesheet" href="sidebar.css">
+
 </head>
 
 <body>
     <header>
         <div id="header">
-            <img src="photos/logokamelito.png" height="90px" id="img">
+            <a href="index.html"><img src="photos/logokamelito.png" height="90px" id="img"></a>
             <div class="navbar">
                 <a href="about.html">Qui sommes-nous ?</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Les bienfaits du lait de chamelle
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                    </div>
-                </div>
+                <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
                 <a href="https://www.kamelito.com/boutique/">Boutique</a>
             </div>
         </div>
     </header>
-    <h1>Les bienfaits du lait de chamelle</h1>
+    <header>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">Qui sommes-nous ?</a>
+            <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
+            <a href="https://www.kamelito.com/boutique/">Boutique</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+        </div>
+    </header>
+    <h1>Le lait de chamelle et ses bienfaits</h1>
 
     <div class="bigCTN">
         <section class="section1">
             <div class="reponse">
-                <h2>LES NUTRIMENTS DU LAIT DE CHAMELLE</h2>
+                <h2>LA COMPOSITION DU LAIT DE CHAMELLE</h2>
             </div>
         </section>
     </div>
@@ -98,24 +104,29 @@
                 <p>Le lait de chamelle contient plusieurs nutriments ayant des propriétés antibactériennes, antivirales,
                     antimicrobiennes, antifongiques, anti-inflammatoires et antioxydantes. De plus, en comparaison avec
                     le lait de vache et de chèvre, le lait de chamelle est considérablement plus hypoallergénique.</p>
-                <a href="https://www.kamelito.com/mieux-connaitre-le-lait-de-chamelle/">En savoir plus !</a>
+
             </div>
+
         </section>
     </div>
-
+    <div class="lien">
+        <a href="https://www.kamelito.com/mieux-connaitre-le-lait-de-chamelle/">En savoir plus !</a>
+    </div>
     <footer>
         <div class="firstLine">
             <div class="footer1">
-                <h4>Kamelito</h4>
+                <h4>KAMELITO</h4>
                 <div class="ctn2">
                     <a href="about.html">
                         <p>Qui sommes-nous ?</p>
                     </a>
-                    <p>Boutique</p>
+                    <a href="https://www.kamelito.com/boutique/">
+                        <p>Boutique</p>
+                    </a>
                 </div>
             </div>
             <div class="footer2">
-                <h4>Kamelito c'est du chameau, du lait, des infos.</h4>
+                <h4>KAMELITO c'est du chameau, du lait, des infos.</h4>
             </div>
             <div class="footer contact">
                 <h4>Contact</h4>

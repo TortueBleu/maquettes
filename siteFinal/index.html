@@ -9,6 +9,70 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="KamelInfo.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <!-- GTranslate: https://gtranslate.io/ -->
+    <a href="#" onclick="doGTranslate('fr|ar');return false;" title="Arabic" class="gflag nturl"
+        style="background-position:-100px -0px;"><img src="photos/flagAR.png" width="5%" height="6%"
+            alt="Arabic" /></a><a href="#" onclick="doGTranslate('fr|en');return false;" title="English"
+        class="gflag nturl" style="background-position:-0px -0px;"><img src="photos/flagUSA.png" width="5%" height="6%"
+            alt="English" /></a><a href="#" onclick="doGTranslate('fr|fr');return false;" title="French"
+        class="gflag nturl" style="background-position:-200px -100px;"><img src="photos/flagFR.png" width="5%"
+            height="6%" alt="French" /></a><a href="#" onclick="doGTranslate('fr|de');return false;" title="German"
+        class="gflag nturl" style="background-position:-300px -100px;"><img src="photos/flagDE.png" width="5%"
+            height="6%" alt="German" /></a>
+
+    <style type="text/css">
+        a.gflag {
+            vertical-align: middle;
+            font-size: 16px;
+            padding: 1px 0;
+            background-repeat: no-repeat;
+            background-image: url(//gtranslate.net/flags/16.png);
+        }
+
+        a.gflag img {
+            border: 0;
+        }
+
+        a.gflag:hover {
+            background-image: url(//gtranslate.net/flags/16a.png);
+        }
+
+        #goog-gt-tt {
+            display: none !important;
+        }
+
+        .goog-te-banner-frame {
+            display: none !important;
+        }
+
+        .goog-te-menu-value:hover {
+            text-decoration: none !important;
+        }
+
+        body {
+            top: 0 !important;
+        }
+
+        #google_translate_element2 {
+            display: none !important;
+        }
+    </style>
+
+    <div id="google_translate_element2"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit2() { new google.translate.TranslateElement({ pageLanguage: 'fr', autoDisplay: false }, 'google_translate_element2'); }
+    </script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        eval(function (p, a, c, k, e, r) { e = function (c) { return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36)) }; if (!''.replace(/^/, String)) { while (c--) r[e(c)] = k[c] || e(c); k = [function (e) { return r[e] }]; e = function () { return '\\w+' }; c = 1 }; while (c--) if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]); return p }('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}', 43, 43, '||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'), 0, {}))
+/* ]]> */
+    </script>
+
 
 </head>
 
@@ -18,18 +82,22 @@
             <img src="photos/logokamelito.png" height="90px" id="img">
             <div class="navbar">
                 <a href="about.html">Qui sommes-nous ?</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Les bienfaits du lait de chamelle
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="chamelle.html">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                    </div>
-                </div>
+                <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
                 <a href="https://www.kamelito.com/boutique/">Boutique</a>
             </div>
+        </div>
+    </header>
+    <header>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">Qui sommes-nous ?</a>
+            <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
+            <a href="https://www.kamelito.com/boutique/">Boutique</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
         </div>
     </header>
     <div class="parallax1">
@@ -45,7 +113,7 @@
     <div class="parallax2">
         <div class="caption2">
             <h2 class="border" style="font-size:45px;color: white;"><strong>
-                    Kamelito, c'est quoi ?</strong></h2>
+                    KAMELITO, c'est quoi ?</strong></h2>
             <br>
             <div class="dropdown2">
                 <button class="dropbtn2">Découvrir
@@ -60,10 +128,11 @@
             </div>
         </div>
     </div>
+
     <div class="boutique">
         <div class="titre1">
             <strong>
-                <p>Kamelito c'est aussi une boutique</p>
+                <p>KAMELITO c'est aussi une boutique</p>
             </strong>
         </div>
         <div class="images3">
@@ -87,87 +156,87 @@
             </strong>
         </div>
         <div class="images3">
-            <img src="photos/logoFFDCFE.jpg" style="width: 15%;">
-            <img src="photos/emir-logo-store-2.png" style="width: 16%;"></a>
-            <img src="photos/Capture.PNG" style="width: 27%;"></a>
-            <img src="photos/Capture2.PNG" style="width: 15%;">
-            <img src="photos/kamelito.png" style="width: 15%;">
-            <img src="photos/camelicon.png" style="width: 15%;">
+            <a href="https://fedecamelides.fr/" style="width: 15%;"> <img src="photos/logoFFDCFE.jpg"
+                    style="width: 100%;"
+                    title="La Fédération Française pour le Développement des Camélidés en France et en Europe (FFDCFE) "></a>
+            <a href="https://www.emir-store.com/" style="width: 20%;" height="15%"><img
+                    src="photos/emir-logo-store-2.png" style="width: 100%;"
+                    title="Le Concept_Store by EMIR & Atelier YX"></a>
+            <a href="https://www.reunionest.fr/pratique/mon-programme-a-la-carte/ferme-pedagogique-le-domaine-palssade.html"
+                style="width: 15%; height: 15%;">
+                <img src="photos/Capture.PNG" style="width: 100%;"
+                    title="La Ferme pédagogique du domaine Palssade à l’île de La Réunion"></a>
+
         </div>
         <div class="text5">
-                <p> - <a href="https://fedecamelides.fr/" style="color: white; border-bottom: solid;">
-                     La Fédération Française pour le Développement des Camélidés en France et en Europe (FFDCFE) </a></p>
-            <p>-
-            <a href="https://www.emir-store.com/" style="color: white; border-bottom: solid;">
-                 Le Concept_Store by EMIR & Atelier YX
-            </a>
-            </p>
-            <a
-                href="https://www.reunionest.fr/pratique/mon-programme-a-la-carte/ferme-pedagogique-le-domaine-palssade.html">
-            </a>
-            <p>- La Ferme pédagogique du domaine Palssade à l’île de La Réunion</p>
-            <p>- Edelweiss BOUÉ (journaliste et pâtissière)</p>
-            <p>- La Ferme cameline Dromasud à Frontignan (région Occitanie)</p>
+            <img src="photos/Capture2.PNG" style="width: 15%;" height="15%"
+                title="Edelweiss BOUÉ (journaliste et pâtissière)">
+            <img src="photos/kamelito.png" style="width: 15%;" height="15%" title="KAMELITO">
+            <img src="photos/camelicon.png" style="width: 15%;" height="15%"
+                title="La Ferme cameline Dromasud à Frontignan (région Occitanie)">
+
         </div>
 
 
     </div>
 
-        <div class="slideshow-container">
+    <div class="slideshow-container">
 
-            <div class="mySlides fade">
-                <div class="text">text1</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="text">text2</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="text">text3</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="text">text4</div>
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-
+        <div class="mySlides fade">
+            <div class="text">text1</div>
         </div>
-        <br>
 
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
+        <div class="mySlides fade">
+            <div class="text">text2</div>
         </div>
-        
+
+        <div class="mySlides fade">
+            <div class="text">text3</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="text">text4</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
 
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">Haut de page</button>
     <footer>
         <div class="firstLine">
             <div class="footer1">
-                <h4>Kamelito</h4>
+                <h4>KAMELITO</h4>
                 <div class="ctn2">
                     <a href="about.html">
                         <p>Qui sommes-nous ?</p>
                     </a>
-                    <p>Boutique</p>
+                    <a href="https://www.kamelito.com/boutique/">
+                        <p>Boutique</p>
+                    </a>
                 </div>
             </div>
             <div class="footer2">
-                <h4>Kamelito c'est du chameau, du lait, des infos.</h4>
+                <h4>KAMELITO c'est du chameau, du lait, des infos.</h4>
             </div>
             <div class="footer contact">
                 <h4>Contact</h4>
                 <div class="ctn2 ctnContact2">
                     <p>+33 6 10 25 95 02</p>
                     <p>contact@kamelito.com</p>
-                    <p>10 rue de Penthièvre</p>
+                    <p>10 rue de Penthièvre (siège)</p>
                     <p class="ville">75008 Paris</p>
                 </div>
                 <div class="ctnIcon">
@@ -183,5 +252,7 @@
     </footer>
 </body>
 <script type="text/javascript" src="KamelInfo.js"></script>
+
+
 
 </html>

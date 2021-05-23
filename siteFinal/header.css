@@ -80,7 +80,7 @@
     
 body, html {
     height: 100%;
-    font: 400 15px/1.8 "Lato", sans-serif;
+    font: 400 15px/1.8 "Bodoni", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -90,3 +90,9 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background: goldenrod;
 }
+
+@media screen and (max-width: 1025px) {
+    #header {
+        display: none
+    }
+  }

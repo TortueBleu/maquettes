@@ -8,7 +8,9 @@
     <title>A propos</title>
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="KamelInfo.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="sidebar.css">
+
 </head>
 
 <body>
@@ -17,18 +19,22 @@
             <a href="index.html"><img src="photos/logokamelito.png" height="90px" id="img"></a>
             <div class="navbar">
                 <a href="about.html">Qui sommes-nous ?</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Les bienfaits du lait de chamelle
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                    </div>
-                </div>
+                <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
                 <a href="https://www.kamelito.com/boutique/">Boutique</a>
             </div>
+        </div>
+    </header>
+    <header>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">Qui sommes-nous ?</a>
+            <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
+            <a href="https://www.kamelito.com/boutique/">Boutique</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
         </div>
     </header>
     <div class="contenu1">
@@ -37,7 +43,7 @@
         </div>
         <div class="bigCTN">
             <section class="section1">
-                <div class="leftCtn">
+                <div class="text">
                     <p>Originaire du pays autrefois surnommé l’Arabie Heureuse, les
                         chameaux, le désert et les oasis ont toujours fait partie du
                         décor.</p>
@@ -55,7 +61,7 @@
                         chamelle et partager des infos les concernant. Quelques années
                         plus tard, le projet KAMELITO voit le jour !</p>
                 </div>
-                <div class="rightCtn">
+                <div class="image">
                     <img src="photos/chameaux.jpg">
                 </div>
             </section>
@@ -68,10 +74,8 @@
 
         <div class="bigCTN">
             <section class="section1">
-                <div class="rightCtn">
-                    <img src="photos/transi.png">
-                </div>
-                <div class="leftCtn">
+
+                <div class="text">
                     <h1>Kamel
                     </h1>
                     <p>Diplômé d’une licence en Biologie humaine & Biotechnologie et d’un master en Santé Publique.
@@ -81,7 +85,7 @@
                         des chameaux et a décidé de vous partager sa passion à travers le projet KAMELITO.</p>
                     </br>
                     <h1>Son mot de fin</h1>
-                </br>
+                    </br>
                     <p>“Le chameau, qu’il possède une ou deux bosses, est selon moi l’animal le plus extraordinaire
                         qui soit du fait de ses capacités d’adaptation dans tous les milieux dans lesquels il se trouve.
                         C’est pour moi l’animal du futur qui contribuera indéniablement à la transition écologique
@@ -91,13 +95,15 @@
                         afin
                         de répondre aux problématiques de santé publique.”</p>
                 </div>
-
+                <div class="image">
+                    <img src="photos/transi.png">
+                </div>
             </section>
         </div>
 
         <div class="bigCTN">
             <section class="section1">
-                <div class="leftCtn">
+                <div class="text">
                     <h1>JIYEF</h1>
                     <p>Diplômé major d’un master en biotechnologie, Santé et Environnement,
                         enseignant titulaire à l’Education Nationale (filière biotechnologie, santé, animaux et
@@ -112,7 +118,7 @@
                         via ce projet, de faire découvrir cet animal exceptionnel qu’est le chameau à mes élèves.
                         Depuis, on peut dire qu’ils bossent 2 fois plus !”</p>
                 </div>
-                <div class="rightCtn">
+                <div class="image">
                     <img src="photos/transi.png">
                 </div>
             </section>
@@ -121,25 +127,23 @@
 
         <div class="bigCTN">
             <section class="section1">
-                <div class="rightCtn">
-                    <img src="photos/transi.png">
-                </div>
-                <div class="leftCtn">
+
+                <div class="text">
                     <h1>Hiba
                     </h1>
                     <p>Sage-femme diplômée d’Etat, major de sa promotion et jeune maman dévouée et dynamique,
                         Hiba est particulièrement sensibilisée aux effets de l’environnement sur le développement des
                         enfants.
-                        Ce fut d’ailleurs l’objet de son mémoire de fin d’étude. 
-                    </br>
-                    </br>
+                        Ce fut d’ailleurs l’objet de son mémoire de fin d’étude.
+                        </br>
+                        </br>
                         Les effets des perturbateurs endocriniens
                         présents dans les aliments, les polluants dans l’air, les substances nocives contenues dans
                         les biberons et les couches entre autres. Tout ceci a un impact prouvé sur l’être humain dès
                         les premiers instants de sa vie. Elle sensibilise régulièrement ses patientes à ce sujet.</p>
                     </br>
                     <h1>Son mot de fin</h1>
-                </br>
+                    </br>
                     <p>“Durant mes études et ensuite ma vie professionnelle, je me suis beaucoup intéressée à la
                         science des 1000 premiers jours.
                         Ceci nous montre l’impact considérable de l’environnement, notamment de l’alimentation,
@@ -149,20 +153,22 @@
                         il s’avère que des études montrent que le lait de chamelle pourrait être une excellente
                         alternative thérapeutique pour ces nourrissons.”</p>
                 </div>
-
+                <div class="image">
+                    <img src="photos/transi.png">
+                </div>
             </section>
         </div>
 
 
         <div class="bigCTN">
             <section class="section1">
-                <div class="leftCtn">
+                <div class="text">
                     <h1>MOUNA </h1>
                     <p>Amoureuse de la nature et des fastueux paysages que peut offrir l’île
                         de la Réunion, Mouna est une jeune mère de famille qui mène une vie à
                         100 à l’heure partagée entre sa famille, la randonnée et sa passion pour
                         les produits de beauté.
-                        
+
                         Entre plage, montagnes, volcans et cascades, il est primordial d’après
                         elle de garder une peau saine et nette en toute circonstance. Mouna notre
                         conseillère beauté référente, nous livrera ses différents conseils et astuces
@@ -177,35 +183,36 @@
                         Je vous ferai découvrir ici tous mes petits secrets soin beauté à base de lait de chamelle !”
                     </p>
                 </div>
-                <div class="rightCtn">
+                <div class="image">
                     <img src="photos/transi.png">
                 </div>
             </section>
         </div>
+        <strong class="contenu3">- Développeurs de ce site : Brendan BOISEAUX et Antoine ISELIN </strong>
     </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Haut de page</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="btntop">Haut de page</button>
     <footer>
         <div class="firstLine">
             <div class="footer1">
-                <h4>Kamelito</h4>
+                <h4>KAMELITO</h4>
                 <div class="ctn2">
                     <a href="about.html">
                         <p>Qui sommes-nous ?</p>
-                    </a href="https://www.kamelito.com/boutique/">
+                    </a>
                     <a href="https://www.kamelito.com/boutique/">
                         <p>Boutique</p>
                     </a>
                 </div>
             </div>
             <div class="footer2">
-                <h4>Kamelito c'est du chameau, du lait, des infos.</h4>
+                <h4>KAMELITO c'est du chameau, du lait, des infos.</h4>
             </div>
             <div class="footer contact">
                 <h4>Contact</h4>
                 <div class="ctn2 ctnContact2">
                     <p>+33 6 10 25 95 02</p>
                     <p>contact@kamelito.com</p>
-                    <p>10 rue de Penthièvre</p>
+                    <p>10 rue de Penthièvre (siège)</p>
                     <p class="ville">75008 Paris</p>
                 </div>
                 <div class="ctnIcon">

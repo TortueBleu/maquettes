@@ -9,7 +9,7 @@
 }
 
 .firstLine {
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Bodoni', cursive;
   font-size: 17px;
   height: 300px;
   width: 100%;
@@ -102,3 +102,40 @@ a {
 h4 {
     text-align: center;
 }
+
+.btntop{
+  opacity: 0.8;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 700px) {
+  .firstLine,
+.secondLine {
+  padding-top: 5%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .firstLine,
+.secondLine {
+  padding-top: 15%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .btntop {
+    width: 20%;
+    font-size: 2%;
+  }
+}
+  

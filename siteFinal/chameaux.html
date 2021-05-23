@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="chameaux.css">
+    <link rel="stylesheet" href="sidebar.css">
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
@@ -20,18 +22,22 @@
             <a href="index.html"><img src="photos/logokamelito.png" height="90px" id="img"></a>
             <div class="navbar">
                 <a href="about.html">Qui sommes-nous ?</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Les bienfaits du lait de chamelle
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                    </div>
-                </div>
+                <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
                 <a href="https://www.kamelito.com/boutique/">Boutique</a>
             </div>
+        </div>
+    </header>
+    <header>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">Qui sommes-nous ?</a>
+            <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
+            <a href="https://www.kamelito.com/boutique/">Boutique</a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
         </div>
     </header>
     <div class="parallax1">
@@ -49,7 +55,7 @@
                 <p>- D'où vient-il ?</p>
             </div>
             <div class="reponse">
-                <div data-aos="fade-left"><img src="photos/kamelito-habitat-chameau-dromadaire-infographie-4.png"
+                <div data-aos="fade-up"><img src="photos/kamelito-habitat-chameau-dromadaire-infographie-4.png"
                         width="80%">
                     <p>Le chameau d’Arabie (dromadaire) vit principalement là où le désert chaud règne :</p>
 
@@ -65,7 +71,7 @@
     <div class="bigCTN">
         <section class="section1">
             <div class="reponse">
-                <div data-aos="fade-right"><img src="photos/desert.jpg" width="70%">
+                <div data-aos="fade-up"><img src="photos/desert.jpg" width="70%">
                     <p>Le chameau est surnommé « vaisseau du désert
                         ».</p>
                     <p>Il peut marcher plusieurs kilomètres sans s’arrêter, </p>
@@ -86,7 +92,7 @@
                 <p>• Pourquoi voit-on en lui un acteur majeur de la transition écologique ?</p>
             </div>
             <div class="reponse">
-                <div data-aos="fade-left"><img src="photos/chameau4.jpg" width="80%">
+                <div data-aos="fade-up"><img src="photos/chameau4.jpg" width="80%">
                     <p>Il peut se déplacer des kilomètres sans se fatiguer et consomme donc beaucoup moins qu'une
                         voiture.</p>
                     <p>Si c'était une voiture, on pourrait le comparer à une Jeep Wrangler.</p>
@@ -99,7 +105,7 @@
     <div class="bigCTN">
         <section class="section1">
             <div class="reponse">
-                <div data-aos="fade-right"><img src="photos/camelhead.jpg" width="50%">
+                <div data-aos="fade-up"><img src="photos/camelhead.jpg" width="50%">
                     <p>Ses larges narines sont capables de se fermer hermétiquement lui permettant de ne pas attraper de
                         sables,
                         tout comme les longs poils de ses oreilles ou les cils autour de ses yeux sont des protections.
@@ -117,7 +123,7 @@
     <div class="bigCTN">
         <section class="section1">
             <div class="reponse">
-                <div data-aos="fade-right"><img src="photos/camellegs.jpg" width="50%">
+                <div data-aos="fade-up"><img src="photos/camellegs.jpg" width="50%">
                     <p>- Elles sont longues et fines et font que son corps soit très éloigné du sol lorsqu’il est
                         debout.
                     </p>
@@ -143,7 +149,7 @@
                 <p>• 45°C le jour, 5°C la nuit : comment réussit-il à s’adapter ?</p>
             </div>
             <div class="reponse">
-                <div data-aos="fade-left"><img src="photos/chameaux5.jpg" width="80%">
+                <div data-aos="fade-up"><img src="photos/chameaux5.jpg" width="80%">
                     <p>Le dromadaire est particulièrement adapté au désert : il est capable de réguler sa température
                         interne grâce à sa thyroïde : la nuit, sa température interne baisse, et de jour elle augmente.
                         Il est le seul animal terrestre de cette taille à diminuer et augmenter "volontairement" sa
@@ -154,27 +160,29 @@
             </div>
         </section>
     </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Haut de page</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="btntop">Haut de page</button>
     <footer>
         <div class="firstLine">
             <div class="footer1">
-                <h4>Kamelito</h4>
+                <h4>KAMELITO</h4>
                 <div class="ctn2">
                     <a href="about.html">
                         <p>Qui sommes-nous ?</p>
                     </a>
-                    <p>Boutique</p>
+                    <a href="https://www.kamelito.com/boutique/">
+                        <p>Boutique</p>
+                    </a>
                 </div>
             </div>
             <div class="footer2">
-                <h4>Kamelito c'est du chameau, du lait, des infos.</h4>
+                <h4>KAMELITO c'est du chameau, du lait, des infos.</h4>
             </div>
             <div class="footer contact">
                 <h4>Contact</h4>
                 <div class="ctn2 ctnContact2">
                     <p>+33 6 10 25 95 02</p>
                     <p>contact@kamelito.com</p>
-                    <p>10 rue de Penthièvre</p>
+                    <p>10 rue de Penthièvre (siège)</p>
                     <p class="ville">75008 Paris</p>
                 </div>
                 <div class="ctnIcon">
@@ -194,6 +202,6 @@
     </script>
 </body>
 
-<script type="text/javascript" src="KamelInfo.js"></script>    
+<script type="text/javascript" src="KamelInfo.js"></script>
 
 </html>
