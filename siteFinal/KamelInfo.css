@@ -223,14 +223,13 @@ img {
   user-select  : none;
 }
 
-.text {
+.textCarousel {
   display: flex;
   justify-content: center;
   color      : goldenrod;
   font-size  : 55px;
   padding    : 8px 12px;
   /*position   : absolute;*/
-  top        : 50%;
   left       : 100px;
   width      : 100%;
   font-family: 'Patua One', cursive;
@@ -315,7 +314,6 @@ img {
 /* Slides */
 .mySlides {
   display: none;
-  padding: 80px;
   text-align: center;
 }
 
