@@ -235,7 +235,7 @@ img {
     display: flex;
     justify-content: center;
     color: goldenrod;
-    font-size: 55px;
+    font-size: 300%;
     padding: 8px 12px;
     /*position   : absolute;*/
     left: 100px;
