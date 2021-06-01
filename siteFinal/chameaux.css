@@ -1,17 +1,15 @@
-
-body, html {
+body,
+html {
     scroll-behavior: smooth;
     height: 100%;
     font: 400 15px/1.8 "Bodoni", sans-serif;
-  }
-  
+}
+
 .parallax1 {
     /* The image used */
     background-image: url("photos/troupeaux.jpg");
-  
     /* Full height */
     min-height: 100%;
-  
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -28,7 +26,8 @@ body, html {
     color: white;
 }
 
-body, html {
+body,
+html {
     scroll-behavior: smooth;
 }
 
@@ -39,11 +38,13 @@ section {
     padding-right: 8%;
     padding-top: 50px;
     padding-bottom: 50px;
-    display : flex;
+    display: flex;
     justify-content: space-between;
     /* flex-direction: column; */
 }
-.question, .reponse {
+
+.question,
+.reponse {
     width: 47%;
     display: flex;
     flex-direction: column;
@@ -55,26 +56,42 @@ section {
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: goldenrod; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-  }
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: goldenrod;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
 
-  /* RESPONSIVE */
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+
+/* RESPONSIVE */
+
 @media only screen and (min-width: 376px) and (max-width: 425px) {
     /*style petites-moyennes tablettes */
     .container {
@@ -82,44 +99,39 @@ section {
         padding-right: 0px !important;
     }
     .text {
-     padding: 0px;
- }  
-  }
-  
-  @media only screen and (min-width: 321px) and (max-width: 375px) {
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
     /*style smartphones et petites tablettes en portrait*/
     .container {
         padding-left: 0px !important;
         padding-right: 0px !important;
-
     }
     .text {
         padding: 0px;
-    }  
-  }
-  
-    @media only screen and (max-device-width: 320px) {
-      /*style petits smartphones en voie de disparition*/
-      .container {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-
     }
-    .text {
-        padding: 0px;
-    } 
-  }
+}
 
-  @media only screen and (max-device-width: 320px) {
+@media only screen and (max-device-width: 320px) {
     /*style petits smartphones en voie de disparition*/
     .container {
-      padding-left: 0px !important;
-      padding-right: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .text {
+        padding: 0px;
+    }
+}
 
-  }
-  .text {
-      padding: 0px;
-  }
-  
-  
+@media only screen and (max-device-width: 320px) {
+    /*style petits smartphones en voie de disparition*/
+    .container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .text {
+        padding: 0px;
+    }
 }

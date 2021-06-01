@@ -1,6 +1,6 @@
 // When the user scrolls the page, execute myFunction
 window.addEventListener('scroll', scrollFunction)
-//window.onscroll = function () { myFunction() };
+    //window.onscroll = function () { myFunction() };
 
 // Get the navbar
 var navbar = document.getElementById("header");
@@ -83,6 +83,3 @@ function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
 }
-
-
-
