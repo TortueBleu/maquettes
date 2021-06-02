@@ -7,7 +7,7 @@
     padding-bottom: 50px;
     display : flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
 }
 .text, .image {
     width: 45%;
