@@ -5,6 +5,16 @@ html {
     font: 400 15px/1.8 "Bodoni", sans-serif;
 }
 
+.image1 {
+    display: flex;
+    justify-content: center;
+}
+
+.lien {
+    text-align: center;
+    text-decoration: underline;
+}
+
 .parallax1 {
     /* The image used */
     background-image: url("photos/troupeaux.jpg");
@@ -15,6 +25,11 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.images3 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .caption {
