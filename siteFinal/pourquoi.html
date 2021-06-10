@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="pourquoi.css">
     <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="traduction.css">
+    <!-- GTranslate: https://gtranslate.io/ -->
+
+    <div id="google_translate_element2"></div>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+
+    <script type="text/javascript" src="traduction.js">
+    </script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
@@ -23,6 +32,16 @@
                 <a href="about.html">Qui sommes-nous ?</a>
                 <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
                 <a href="https://www.kamelito.com/boutique/">Boutique</a>
+                <div class="dropdown">
+                    <button class="dropbtn"><img src="photos/worldwide_icon-icons.com_64707.png"style="width: 60%"></button>
+                    <div class="dropdown-content">
+                        <a href="#" onclick="doGTranslate('fr|ar');return false;" title="Arabic" class="gflag nturl" style="background-position:-100px -0px; width: 30%;"><img src="photos/flagAR.png" width="100%" alt="Arabic" /></a>
+                        <a href="#" onclick="doGTranslate('fr|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px; width: 30%;"><img src="photos/flagUSA.png" width="100%" alt="English" /></a>
+                        <a href="#" onclick="doGTranslate('fr|fr');return false;" title="French" class="gflag nturl" style="background-position:-200px -100px; width: 30%;"><img src="photos/flagFR.png" width="100%" alt="French" /></a>
+                        <a href="#" onclick="doGTranslate('fr|de');return false;" title="German" class="gflag nturl" style="background-position:-300px -100px; width: 30%;"><img src="photos/flagDE.png" width="100%" alt="German" /></a>
+
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -33,6 +52,10 @@
             <a href="about.html">Qui sommes-nous ?</a>
             <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
             <a href="https://www.kamelito.com/boutique/">Boutique</a>
+            <a href="#" onclick="doGTranslate('fr|ar');return false;" title="Arabic" class="gflag nturl" style="background-position:-100px -0px; width: 30%;"><img src="photos/flagAR.png" width="100%" alt="Arabic" /></a>
+            <a href="#" onclick="doGTranslate('fr|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px; width: 30%;"><img src="photos/flagUSA.png" width="100%" alt="English" /></a>
+            <a href="#" onclick="doGTranslate('fr|fr');return false;" title="French" class="gflag nturl" style="background-position:-200px -100px; width: 30%;"><img src="photos/flagFR.png" width="100%" alt="French" /></a>
+            <a href="#" onclick="doGTranslate('fr|de');return false;" title="German" class="gflag nturl" style="background-position:-300px -100px; width: 30%;"><img src="photos/flagDE.png" width="100%" alt="German" /></a>
         </div>
 
         <div id="main">
@@ -43,58 +66,47 @@
 
 
 
-<div class="raison1">
-    <h2>Raison n°1 : casser les préjugés sur les chameaux</h2>
-    <p>
-        Lorsque nous questionnons les gens de manière générale sur les chameaux et ce qu’évoque cet 
-        animal pour eux, ils répondent pour la plupart « une ou deux bosses », « désert »,
-         « vacances et exotisme », « Moyen-Orient » ou encore « dromadaire ». Les plus téméraires sauront distinguer 
-         le chameau à 1 bosse de celui à 2 bosses. Bien qu’il y ait beaucoup à dire sur cet animal qu’on surnomme
-          « le vaisseau du désert », le concept de KAMELITO souhaite casser cette image trop exotique du chameau et
-           montrer que son exploitation peut contribuer à plusieurs enjeux majeurs et à grande échelle.</p>
-</div>
+    <div class="raison1">
+        <h2>Raison n°1 : casser les préjugés sur les chameaux</h2>
+        <p>
+            Lorsque nous questionnons les gens de manière générale sur les chameaux et ce qu’évoque cet animal pour eux, ils répondent pour la plupart « une ou deux bosses », « désert », « vacances et exotisme », « Moyen-Orient » ou encore « dromadaire ». Les plus
+            téméraires sauront distinguer le chameau à 1 bosse de celui à 2 bosses. Bien qu’il y ait beaucoup à dire sur cet animal qu’on surnomme « le vaisseau du désert », le concept de KAMELITO souhaite casser cette image trop exotique du chameau et
+            montrer que son exploitation peut contribuer à plusieurs enjeux majeurs et à grande échelle.</p>
+    </div>
 
 
 
-<div class="raison2">
-    <h2>Raison n°2 : le chameau est l’animal du futur</h2>
-    <p>
-        Tous les spécialistes et chercheurs s’accordent à dire que le chameau est l’animal 
-        du futur en raison de ses fabuleuses capacités d’adaptation par rapport aux autres espèces.
-         2024 a même été désignée par la FAO (branche de l’OMS) comme l’Année Internationale des Camélidés.
-          KAMELITO souhaite donc contribuer à son niveau à cet événement d’ampleur mondiale. Il faut faire
-           découvrir cet animal au Français.</p>
-</div>
+    <div class="raison2">
+        <h2>Raison n°2 : le chameau est l’animal du futur</h2>
+        <p>
+            Tous les spécialistes et chercheurs s’accordent à dire que le chameau est l’animal du futur en raison de ses fabuleuses capacités d’adaptation par rapport aux autres espèces. 2024 a même été désignée par la FAO (branche de l’OMS) comme l’Année Internationale
+            des Camélidés. KAMELITO souhaite donc contribuer à son niveau à cet événement d’ampleur mondiale. Il faut faire découvrir cet animal au Français.</p>
+    </div>
 
 
 
 
 
 
-<div class="raison3">
-    <h2>Raison n°3 : les qualités du chameau</h2>
-    <p>
-        Tous les spécialistes et chercheurs s’accordent à dire que le chameau est l’animal 
-        du futur en raison de ses fabuleuses capacités d’adaptation par rapport aux autres espèces.
-         2024 a même été désignée par la FAO (branche de l’OMS) comme l’Année Internationale des Camélidés.
-          KAMELITO souhaite donc contribuer à son niveau à cet événement d’ampleur mondiale. Il faut faire
-           découvrir cet animal au Français.</p>
-</div>
+    <div class="raison3">
+        <h2>Raison n°3 : les qualités du chameau</h2>
+        <p>
+            Tous les spécialistes et chercheurs s’accordent à dire que le chameau est l’animal du futur en raison de ses fabuleuses capacités d’adaptation par rapport aux autres espèces. 2024 a même été désignée par la FAO (branche de l’OMS) comme l’Année Internationale
+            des Camélidés. KAMELITO souhaite donc contribuer à son niveau à cet événement d’ampleur mondiale. Il faut faire découvrir cet animal au Français.</p>
+    </div>
 
 
 
 
 
 
-<div class="raison4">
-    <h2>Raison n°4 : apporter une alternative aux laits proposés actuellement</h2>
-    <p>
-        Sur les étalages on trouve du lait de vache, du lait de chèvre, du lait de brebis, du lait végétal… 
-        KAMELITO souhaite apporter une alternative à ceux qui souhaitent un lait animal naturel, nourrissant
-         et qui ne provoquent pas d’effets indésirables : le lait de chamelle.
-    </br>Le lait de chamelle contient beaucoup d’avantages dont celui d’être + digeste. C’est le lait idéal
-     pour les personnes souffrant d’intolérance au lactose ainsi que celles allergiques aux protéines de lait.</p>
-</div>
+    <div class="raison4">
+        <h2>Raison n°4 : apporter une alternative aux laits proposés actuellement</h2>
+        <p>
+            Sur les étalages on trouve du lait de vache, du lait de chèvre, du lait de brebis, du lait végétal… KAMELITO souhaite apporter une alternative à ceux qui souhaitent un lait animal naturel, nourrissant et qui ne provoquent pas d’effets indésirables : le
+            lait de chamelle.
+            </br>Le lait de chamelle contient beaucoup d’avantages dont celui d’être + digeste. C’est le lait idéal pour les personnes souffrant d’intolérance au lactose ainsi que celles allergiques aux protéines de lait.</p>
+    </div>
 
 
 
@@ -105,14 +117,12 @@
 
 
 
-<div class="raison5">
-    <h2>Raison n°5 : L’affection portée aux chameaux    </h2>
-    <p>
-        Le dévouement et l’attachement aux chameaux font que KAMELITO existe aujourd’hui.
-         Cet animal n’est pas comme les autres et ceux qui en possèdent vous le diront :
-          ils ont ce petit quelque chose qu’ on ne retrouve nulle part ailleurs. KAMELITO 
-          a d’ailleurs pour objectif d’acquérir sa propre ferme de chameaux.</p>
-</div>
+    <div class="raison5">
+        <h2>Raison n°5 : L’affection portée aux chameaux </h2>
+        <p>
+            Le dévouement et l’attachement aux chameaux font que KAMELITO existe aujourd’hui. Cet animal n’est pas comme les autres et ceux qui en possèdent vous le diront : ils ont ce petit quelque chose qu’ on ne retrouve nulle part ailleurs. KAMELITO a d’ailleurs
+            pour objectif d’acquérir sa propre ferme de chameaux.</p>
+    </div>
 
 
 

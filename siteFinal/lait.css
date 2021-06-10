@@ -1,10 +1,8 @@
 .parallax1 {
     /* The image used */
     background-image: url("photos/chamelait.jpg");
-  
     /* Full height */
     min-height: 100%;
-  
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -28,11 +26,13 @@ section {
     padding-right: 8%;
     padding-top: 50px;
     padding-bottom: 50px;
-    display : flex;
+    display: flex;
     justify-content: space-between;
     /* flex-direction: column; */
 }
-.question, .reponse {
+
+.question,
+.reponse {
     width: 47%;
     display: flex;
     flex-direction: column;
@@ -43,8 +43,19 @@ section {
     font-size: 100%;
 }
 
+.images3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images31 {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 /* RESPONSIVE */
+
 @media only screen and (min-width: 376px) and (max-width: 425px) {
     /*style petites-moyennes tablettes */
     .container {
@@ -52,36 +63,35 @@ section {
         padding-right: 0px !important;
     }
     .text {
-     padding: 0px;
- }  
-  }
-  
-  @media only screen and (min-width: 321px) and (max-width: 375px) {
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
     /*style smartphones et petites tablettes en portrait*/
     .container {
         padding-left: 0px !important;
         padding-right: 0px !important;
-
     }
     .text {
         padding: 0px;
-    }  
-  }
-  
-    @media only screen and (max-device-width: 320px) {
-      /*style petits smartphones en voie de disparition*/
-      .container {
+    }
+}
+
+@media only screen and (max-device-width: 320px) {
+    /*style petits smartphones en voie de disparition*/
+    .container {
         padding-left: 0px !important;
         padding-right: 0px !important;
-
     }
     .text {
         padding: 0px;
-    } 
-  }
+    }
+}
 
-  body, html {
+body,
+html {
     scroll-behavior: smooth;
     height: 100%;
     font: 400 15px/1.8 "Bodoni", sans-serif;
-  }
+}

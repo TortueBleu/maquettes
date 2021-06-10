@@ -32,6 +32,11 @@ html {
     justify-content: space-between;
 }
 
+.images31 {
+    display: flex;
+    justify-content: space-around;
+}
+
 .caption {
     position: absolute;
     left: 0;

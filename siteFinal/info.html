@@ -11,6 +11,16 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="info.css">
     <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="traduction.css">
+    <!-- GTranslate: https://gtranslate.io/ -->
+
+
+    <div id="google_translate_element2"></div>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+
+    <script type="text/javascript" src="traduction.js">
+    </script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
@@ -23,6 +33,16 @@
                 <a href="about.html">Qui sommes-nous ?</a>
                 <a href="chamelle.html">Les bienfaits du lait de chamelle</a>
                 <a href="https://www.kamelito.com/boutique/">Boutique</a>
+                <div class="dropdown">
+                    <button class="dropbtn"><img src="photos/worldwide_icon-icons.com_64707.png"style="width: 60%"></button>
+                    <div class="dropdown-content">
+                        <a href="#" onclick="doGTranslate('fr|ar');return false;" title="Arabic" class="gflag nturl" style="background-position:-100px -0px; width: 30%;"><img src="photos/flagAR.png" width="100%" alt="Arabic" /></a>
+                        <a href="#" onclick="doGTranslate('fr|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px; width: 30%;"><img src="photos/flagUSA.png" width="100%" alt="English" /></a>
+                        <a href="#" onclick="doGTranslate('fr|fr');return false;" title="French" class="gflag nturl" style="background-position:-200px -100px; width: 30%;"><img src="photos/flagFR.png" width="100%" alt="French" /></a>
+                        <a href="#" onclick="doGTranslate('fr|de');return false;" title="German" class="gflag nturl" style="background-position:-300px -100px; width: 30%;"><img src="photos/flagDE.png" width="100%" alt="German" /></a>
+
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -59,15 +79,14 @@
                 <div data-aos="fade-left"><img src="photos/2024.png" width="80%" class="n2024">
                     <p>- 2024 sera l'année du chameau</p>
 
-                    <p>- Au même titre que les JOs qui vont se dérouler à Paris les chameaux auront une place importante
-                        lors de cette année.</p>
+                    <p>- Au même titre que les JOs qui vont se dérouler à Paris les chameaux auront une place importante lors de cette année.</p>
                 </div>
 
 
             </div>
         </section>
     </div>
-    
+
 
 
     <div class="bigCTN">
@@ -76,8 +95,7 @@
                 <div data-aos="fade-right"><img src="photos/desert.jpg" width="70%">
                     <p></p>
                     <p>- En France depuis 1940, 449 personnes sont née en portant le nom chameau.</p>
-                    <p>- Dans les années 70, un chameau un peu special à été découvert au Yemen par un zoologiste
-                        allemand, sa particuliarité il avait non pas 2 mais 4 bosses !</p>
+                    <p>- Dans les années 70, un chameau un peu special à été découvert au Yemen par un zoologiste allemand, sa particuliarité il avait non pas 2 mais 4 bosses !</p>
                     <p>- Depuis 2014 au Rajasthan (en Inde) le chameau est officiellement animal d'état.</p>
 
                 </div>
@@ -88,7 +106,7 @@
         </section>
     </div>
 
-<div class="bigCTN">
+    <div class="bigCTN">
         <section class="section1">
             <div class="question">
                 <p>• Les soins</p>
@@ -96,12 +114,12 @@
             <div class="reponse">
                 <div data-aos="fade-right"><img src="photos/hopitaleChammeau.png" width="70%">
                     <p>-D'une taille de 70 km² </p>
-                    <p>-Pouvant acceuilir jusqu'a 4000 chammeau</p>
-                    <p>-Et ayant couter 31 millions a la fabrication</p>
-                    <p>L'hopital pour chammeau le plus grand du monde ce trouve en arabie saoudite</p>
+                    <p>-Pouvant acceuilir jusqu'a 4000 chameaux</p>
+                    <p>-Et ayant coûter 31 millions à la fabrication</p>
+                    <p>L'hopital pour chameau le plus grand du monde se trouve en Arabie Saoudite</p>
                 </div>
             </div>
-            
+
         </section>
     </div>
 
@@ -111,9 +129,9 @@
         <section class="section1">
             <div class="reponse">
                 <div data-aos="fade-right"><img src="photos/clone.png" width="70%">
-                    <p>- C'est en 2009 que INJAZ ("exploit" en arabe) a vue le jour</p>
-                    <p>- INJAZ n'est pas une chamelle comme les autres en effet c'est la premiere chamelle a avoir ete clonée</p>
-                    <p>- ce clonage a été réaliser au Centre de Biotechnologie et de la Reproduction a Dubai</p>
+                    <p>- C'est en 2009 que INJAZ ("exploit" en arabe) a vu le jour</p>
+                    <p>- INJAZ n'est pas une chamelle comme les autres, en effet c'est la première chamelle à avoir été clonée</p>
+                    <p>- Ce clonage a été réalisé au Centre de Biotechnologie et de la Reproduction à Dubai</p>
 
                 </div>
             </div>
@@ -123,9 +141,9 @@
         </section>
     </div>
 
-<div class="bienPlus">
-    <a class="buttonPlus" href=" https://www.kamelito.com/category/cnews-actualites-du-chameau/" >Et plus encore...</a>
-</div>
+    <div class="bienPlus">
+        <a class="buttonPlus" href=" https://www.kamelito.com/category/cnews-actualites-du-chameau/" , target="_blank">Et plus encore...</a>
+    </div>
 
 
 
@@ -159,12 +177,9 @@
                     <p class="ville">75008 Paris</p>
                 </div>
                 <div class="ctnIcon">
-                    <a href=" https://www.facebook.com/KAMELITO.MILK" target="_blank"> <img class="icon"
-                            src="photos/ICONES/facebook.png" alt="facebook"></a>
-                    <a href="https://www.instagram.com/kamelito_milk/" target="_blank"> <img class="icon"
-                            src="photos/ICONES/instagram.png" alt="instagram"></a>
-                    <a href=" https://twitter.com/KAMELITO_MILK" target="_blank"> <img class="icon"
-                            src="photos/ICONES/twitter.png" alt="twitter"></a>
+                    <a href=" https://www.facebook.com/KAMELITO.MILK" target="_blank"> <img class="icon" src="photos/ICONES/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/kamelito_milk/" target="_blank"> <img class="icon" src="photos/ICONES/instagram.png" alt="instagram"></a>
+                    <a href=" https://twitter.com/KAMELITO_MILK" target="_blank"> <img class="icon" src="photos/ICONES/twitter.png" alt="twitter"></a>
                 </div>
             </div>
         </div>
